@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2017",           // or higher (es2018, es2020, esnext)
+    "module": "esnext",           // or one of 'es2022', 'esnext', 'node16', 'nodenext'
+    "lib": ["esnext"],            // Required for top-level await
+    "moduleResolution": "node",   // Make sure module resolution is 'node'
+    "esModuleInterop": true,      // Enables ES Module interoperability
+    "allowSyntheticDefaultImports": true
+  }
+}
